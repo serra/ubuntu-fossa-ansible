@@ -15,6 +15,8 @@ Goal: when setting up a new machine, I can just call this Ansible script and be 
 # Doing
 
  * visual git client
+   * ~~vs code might be good enough for now~~ yes it is
+   * Does VS Code cache/store credentials?
 
 # Backlog
 
@@ -28,6 +30,7 @@ Todo, preferably scripted, but do it either way.
  * copy dev pass database
  * copy keypairs
  * store/cahe list of repositories (see /etc/apt/sources.list.d)
+ * share visual studio code settings
 
 apps:
 
