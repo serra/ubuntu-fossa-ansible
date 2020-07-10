@@ -3,14 +3,17 @@ Ansible script for setting up my Ubuntu Fossa machine(s?)
 
 Goal: when setting up a new machine, I can just call this Ansible script and be up-and-running in no-time.
 
-# Done
+# Usage
 
- * Install 1-password in Firefox
- * Add Google mail and calendar accounts
- * Set up Ansible workflow for further setup of my machine
+Manual actions:
+
+ * Install Ubuntu 20.04 Focal Fossa on my machine.
+ * Install 1-password in Firefox.
+ * Add Google mail and calendar accounts.
+ * Set up Ansible workflow for further setup of my machine.
  * Pair Airpods Pro for headset, mic not working yet, [details](https://askubuntu.com/questions/922860/pairing-apple-airpods-as-headset).
- * create an ansible install and config script, from [blog post with ideas](https://opensource.com/article/18/3/manage-your-workstation-configuration-ansible-part-2)
- * vs code
+ * Download the [make file](./makefile) from the [github repository].
+ * Run `make boostrap` and then `make install`
 
 # Doing
 
@@ -45,4 +48,8 @@ accounts
  * micosoft work
  * keypairs
 
+
+---
+
+ [github repository]: https://github.com/serra/ubuntu-fossa-ansible
 
