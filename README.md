@@ -10,11 +10,12 @@ Goal: when setting up a new machine, I can just call this Ansible script and be 
  * Set up Ansible workflow for further setup of my machine
  * Pair Airpods Pro for headset, mic not working yet, [details](https://askubuntu.com/questions/922860/pairing-apple-airpods-as-headset).
  * create an ansible install and config script, from [blog post with ideas](https://opensource.com/article/18/3/manage-your-workstation-configuration-ansible-part-2)
+ * vs code
 
 # Doing
 
- * vs code
- 
+ * visual git client
+
 # Backlog
 
 Todo, preferably scripted, but do it either way.
@@ -30,7 +31,6 @@ Todo, preferably scripted, but do it either way.
 
 apps:
 
- * visual git client
  * python + Pipenv
  * ruby + venv
  * Google Chrome
