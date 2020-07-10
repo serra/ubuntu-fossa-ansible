@@ -3,3 +3,4 @@
   with_items:
     - htop
     - pass
+    - google-chrome-stable
