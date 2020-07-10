@@ -11,6 +11,10 @@ Goal: when setting up a new machine, I can just call this Ansible script and be 
  * Pair Airpods Pro for headset, mic not working yet, [details](https://askubuntu.com/questions/922860/pairing-apple-airpods-as-headset).
  * create an ansible install and config script, from [blog post with ideas](https://opensource.com/article/18/3/manage-your-workstation-configuration-ansible-part-2)
 
+# Doing
+
+ * vs code
+ 
 # Backlog
 
 Todo, preferably scripted, but do it either way.
@@ -22,20 +26,20 @@ Todo, preferably scripted, but do it either way.
  * 1 password (as firefox extension, is good enough)
  * copy dev pass database
  * copy keypairs
+ * store/cahe list of repositories (see /etc/apt/sources.list.d)
 
 apps:
 
- vs code
- visual git client
- python + Pipenv
- ruby + venv
- Google Chrom
+ * visual git client
+ * python + Pipenv
+ * ruby + venv
+ * Google Chrome
  
 accounts
 
-  google prive
-  google work
-  micosoft work
-  keypairs
+ * google prive
+ * google work
+ * micosoft work
+ * keypairs
 
 
