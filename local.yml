@@ -7,3 +7,4 @@
 
   tasks:
     - include: tasks/productivity_packages.yml
+    - include: tasks/dev_packages.yml    
