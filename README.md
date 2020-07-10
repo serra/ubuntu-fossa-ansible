@@ -19,7 +19,7 @@ Manual actions:
 
 # Doing
 
- * Google Chrome
+ * Zoom
 
 # Backlog
 
