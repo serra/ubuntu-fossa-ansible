@@ -11,15 +11,15 @@ Manual actions:
  * Install Ubuntu 20.04 Focal Fossa on my machine.
  * Install 1-password in Firefox.
  * Add Google mail and calendar accounts.
- * Set up Ansible workflow for further setup of my machine.
  * Pair Airpods Pro for headset, mic not working yet, 
    [details](https://askubuntu.com/questions/922860/pairing-apple-airpods-as-headset).
- * Download the [make file](./makefile) from the [github repository].
+ * install additional language pack and spell checker
+ * set keyboard input to english-us, use gnome tweaks to enable composer key for special characters like é.
+ * Set up Ansible workflow for further setup of my machine.
+   Download the [make file](./makefile) from the [github repository].
  * Run `make boostrap` and then `make install`
 
 # Doing
-
- * Zoom
 
 # Backlog
 
@@ -27,7 +27,6 @@ Todo, preferably scripted, but do it either way.
 
  * pair airpods (use mic)
  * language settings (nl spell checker, en spel cheker, interface english)
- * keyboard settings (now Dutch e.g. '+e gives é, but this is annoying when coding
  * check wired headset and mic
  * 1 password (as firefox extension, is good enough)
  * copy dev pass database
@@ -43,6 +42,7 @@ apps:
  * ruby + venv
  * pandoc
  * latex
+ * ffmpeg and ffmpeg-normalize for podcast editing work
  
 accounts
 
