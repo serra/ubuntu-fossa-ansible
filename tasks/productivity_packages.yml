@@ -8,3 +8,7 @@
 - name: Zoom.us
   apt:
     deb: https://zoom.us/client/latest/zoom_amd64.deb
+- name: Install Slack
+  snap:
+    name: slack
+    classic: yes
