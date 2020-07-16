@@ -1,6 +1,6 @@
 - name: Install packages
-  apt: name={{item}}
-  with_items:
+  apt:
+    name:
     - htop
     - pass
     - google-chrome-stable
