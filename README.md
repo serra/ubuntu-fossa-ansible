@@ -18,20 +18,27 @@ Manual actions:
  * Set up Ansible workflow for further setup of my machine.
    Download the [make file](./makefile) from the [github repository].
  * Run `make boostrap` and then `make install`
+ * Add Slack workspaces.
 
 # Doing
+
+ * Slack
+ * Signal
 
 # Backlog
 
 Todo, preferably scripted, but do it either way.
 
+
+ * download and build website code
+ * download and build xscale website
  * pair airpods (use mic)
  * language settings (nl spell checker, en spel cheker, interface english)
  * check wired headset and mic
- * 1 password (as firefox extension, is good enough)
  * copy dev pass database
  * copy keypairs
- * store/cahe list of repositories (see /etc/apt/sources.list.d) 
+ * sync bookmarks from google chrome
+ * store/cache list of repositories (see /etc/apt/sources.list.d) 
    * sudo wget https://dl.google.com/linux/linux_signing_key.pub -O- | sudo apt-key add -   # for google chrome
  * share visual studio code settings and extensions
  * global git config (e.g. git config --global credential.helper 'store --file ~/.), maybe copy config file
@@ -56,3 +63,11 @@ accounts
 
  [github repository]: https://github.com/serra/ubuntu-fossa-ansible
 
+```
+curl -s https://updates.signal.org/desktop/apt/keys.asc | sudo apt-key add -
+echo "deb [arch=amd64] https://updates.signal.org/desktop/apt xenial main" | sudo tee -a /etc/apt/sources.list.d/signal-xenial.list
+sudo apt update && sudo apt install signal-desktop
+
+
+
+```

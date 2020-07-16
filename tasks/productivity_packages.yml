@@ -5,11 +5,11 @@
     - pass
     - google-chrome-stable
     - gnome-tweaks
+    - curl
     - signal-desktop
 - name: Zoom.us
   apt:
     deb: https://zoom.us/client/latest/zoom_amd64.deb
 - name: Install Slack
-  snap:
-    name: slack
-    classic: yes
+  apt:
+    deb: https://downloads.slack-edge.com/linux_releases/slack-desktop-4.7.0-amd64.deb
