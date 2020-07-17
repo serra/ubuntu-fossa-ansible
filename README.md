@@ -19,22 +19,23 @@ Manual actions:
    Download the [make file](./makefile) from the [github repository].
  * Run `make boostrap` and then `make install`
  * Add Slack workspaces.
+ * Log in to spotify
+ * check wired headset and mic
+ * Sync google account met Chrome browser
+ * zoom.us: set [autoscale to false in `~/.config/zoomus.config`](https://superuser.com/questions/1381054/how-to-enable-hidpi-support-on-zoom-us-linux-client)
 
 # Doing
 
- * Slack
- * Signal
 
 # Backlog
 
 Todo, preferably scripted, but do it either way.
 
-
+ * Harvest app for Linux?
  * download and build website code
  * download and build xscale website
- * pair airpods (use mic)
- * language settings (nl spell checker, en spel cheker, interface english)
- * check wired headset and mic
+ * Use AirPods pro mic [find a way to enable HSP/HFP](https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/Bluetooth/#index3h2)
+ * language settings (nl spell checker, en spell cheker, interface english)
  * copy dev pass database
  * copy keypairs
  * sync bookmarks from google chrome
@@ -67,7 +68,4 @@ accounts
 curl -s https://updates.signal.org/desktop/apt/keys.asc | sudo apt-key add -
 echo "deb [arch=amd64] https://updates.signal.org/desktop/apt xenial main" | sudo tee -a /etc/apt/sources.list.d/signal-xenial.list
 sudo apt update && sudo apt install signal-desktop
-
-
-
 ```
