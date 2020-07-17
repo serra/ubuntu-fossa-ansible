@@ -8,4 +8,5 @@
     - software-properties-common
     - ruby
     - rvm
+- name: Add rvm to Bash profile
   shell: echo 'source "/etc/profile.d/rvm.sh"' >> ~/.bashrc
