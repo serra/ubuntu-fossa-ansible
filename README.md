@@ -28,7 +28,6 @@ Manual actions:
 # Doing
 
  * pandoc
- * latex
 
 # Backlog
 
