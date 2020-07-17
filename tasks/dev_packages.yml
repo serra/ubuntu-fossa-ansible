@@ -8,3 +8,4 @@
     - software-properties-common
     - ruby
     - rvm
+  shell: echo 'source "/etc/profile.d/rvm.sh"' >> ~/.bashrc
