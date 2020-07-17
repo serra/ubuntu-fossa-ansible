@@ -27,7 +27,8 @@ Manual actions:
 
 # Doing
 
- * pandoc
+ * Microsoft teams
+ * ruby + venv
 
 # Backlog
 
@@ -35,11 +36,11 @@ Todo, preferably scripted, but do it either way.
 
  * download and build website code
  * download and build xscale website
+ * Microsoft Teams
  * Use AirPods pro mic [find a way to enable HSP/HFP](https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/Bluetooth/#index3h2)
  * language settings (nl spell checker, en spell cheker, interface english)
  * copy dev pass database
  * copy keypairs
- * sync bookmarks from google chrome
  * store/cache list of repositories (see /etc/apt/sources.list.d) 
    * sudo wget https://dl.google.com/linux/linux_signing_key.pub -O- | sudo apt-key add -   # for google chrome
  * share visual studio code settings and extensions
@@ -48,7 +49,6 @@ Todo, preferably scripted, but do it either way.
 apps:
 
  * python + Pipenv
- * ruby + venv
  
 accounts
 
