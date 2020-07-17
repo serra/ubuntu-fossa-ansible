@@ -22,18 +22,18 @@ Manual actions:
  * Log in to spotify
  * check wired headset and mic
  * Sync google account met Chrome browser
+   * This will add extensions too (Drive offline, Harvest, 1password, etc)
  * zoom.us: set [autoscale to false in `~/.config/zoomus.config`](https://superuser.com/questions/1381054/how-to-enable-hidpi-support-on-zoom-us-linux-client)
 
 # Doing
 
- * ffmpeg
- * ffmpeg-normalize for podcast editing work (part of python requirements in pipfile iirc)
+ * pandoc
+ * latex
 
 # Backlog
 
 Todo, preferably scripted, but do it either way.
 
- * Harvest app for Linux?
  * download and build website code
  * download and build xscale website
  * Use AirPods pro mic [find a way to enable HSP/HFP](https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/Bluetooth/#index3h2)
@@ -50,8 +50,6 @@ apps:
 
  * python + Pipenv
  * ruby + venv
- * pandoc
- * latex
  
 accounts
 
