@@ -2,3 +2,9 @@
   snap:
     name: code
     classic: yes
+- name: Install Ruby and tools
+  apt:
+    name:
+    - software-properties-common
+    - ruby
+    - rvm
