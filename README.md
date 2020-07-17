@@ -26,6 +26,8 @@ Manual actions:
 
 # Doing
 
+ * ffmpeg
+ * ffmpeg-normalize for podcast editing work (part of python requirements in pipfile iirc)
 
 # Backlog
 
@@ -50,7 +52,6 @@ apps:
  * ruby + venv
  * pandoc
  * latex
- * ffmpeg and ffmpeg-normalize for podcast editing work
  
 accounts
 
