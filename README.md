@@ -24,11 +24,9 @@ Manual actions:
  * Sync google account met Chrome browser
    * This will add extensions too (Drive offline, Harvest, 1password, etc)
  * zoom.us: set [autoscale to false in `~/.config/zoomus.config`](https://superuser.com/questions/1381054/how-to-enable-hidpi-support-on-zoom-us-linux-client)
-
+ * add rvm to bash profile: `echo 'source "/etc/profile.d/rvm.sh"' >> $HOME/.bashrc` (I don't know how to this using ansible, and maybe I want a different solution for my bash profile anyway)
+ 
 # Doing
-
- * Microsoft teams
- * ruby + venv
 
 # Backlog
 
@@ -37,7 +35,6 @@ Todo, preferably scripted, but do it either way.
  * download and build website code
  * download and build xscale website
  * Microsoft Teams
- * Use AirPods pro mic [find a way to enable HSP/HFP](https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/Bluetooth/#index3h2)
  * language settings (nl spell checker, en spell cheker, interface english)
  * copy dev pass database
  * copy keypairs
@@ -57,6 +54,10 @@ accounts
  * micosoft work
  * keypairs
 
+# Problems - unresolved
+
+ * Use AirPods pro mic [find a way to enable HSP/HFP](https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/Bluetooth/#index3h2)
+ * The fan turns on an awful lot. It is not loud, but for the love of me I don't understand why it runs.
 
 ---
 
