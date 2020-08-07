@@ -28,11 +28,6 @@ Manual actions:
  
 # Doing
 
- * figure out cursor movement on this keyboard
-   fn+pgUp = Home, fn+pgDn = End
-   super ^= expose
-   shift+PrtSc = screenshot of area (ctrl+shift+PrtSc saves to clipboard)
-   see Gnome help > useful keyboard shortcuts for more shortcuts
 
 # Backlog
 
@@ -70,10 +65,18 @@ accounts
 
  [github repository]: https://github.com/serra/ubuntu-fossa-ansible
 
-### Signal Desktop
+# Notes
+
+## Install Signal Desktop
 
 ```
 curl -s https://updates.signal.org/desktop/apt/keys.asc | sudo apt-key add -
 echo "deb [arch=amd64] https://updates.signal.org/desktop/apt xenial main" | sudo tee -a /etc/apt/sources.list.d/signal-xenial.list
 sudo apt update && sudo apt install signal-desktop
 ```
+## Keyboard shortcuts
+
+   fn+pgUp = Home, fn+pgDn = End
+   super ^= expose
+   shift+PrtSc = screenshot of area (ctrl+shift+PrtSc saves to clipboard)
+   see Gnome help > useful keyboard shortcuts for more shortcuts
