@@ -28,12 +28,12 @@ Manual actions:
  
 # Doing
 
+ * download and build xscale website
+
 # Backlog
 
 Todo, preferably scripted, but do it either way.
 
- * download and build xscale website
- * Microsoft Teams
  * language settings (nl spell checker, en spell cheker, interface english)
  * copy dev pass database
  * copy keypairs
