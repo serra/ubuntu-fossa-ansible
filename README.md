@@ -28,9 +28,16 @@ Manual actions:
  
 # Doing
 
+ * figure out cursor movement on this keyboard
+   fn+pgUp = Home, fn+pgDn = End
+   super ^= expose
+   shift+PrtSc = screenshot of area (ctrl+shift+PrtSc saves to clipboard)
+   see Gnome help > useful keyboard shortcuts for more shortcuts
+
 # Backlog
 
 Todo, preferably scripted, but do it either way.
+
 
  * download and build website code
  * download and build xscale website
@@ -39,7 +46,7 @@ Todo, preferably scripted, but do it either way.
  * copy dev pass database
  * copy keypairs
  * store/cache list of repositories (see /etc/apt/sources.list.d) 
-   * sudo wget https://dl.google.com/linux/linux_signing_key.pub -O- | sudo apt-key add -   # for google chrome
+   * `sudo wget https://dl.google.com/linux/linux_signing_key.pub -O- | sudo apt-key add -   # for google chrome`
  * share visual studio code settings and extensions
  * global git config (e.g. git config --global credential.helper 'store --file ~/.), maybe copy config file
 
@@ -62,6 +69,8 @@ accounts
 ---
 
  [github repository]: https://github.com/serra/ubuntu-fossa-ansible
+
+### Signal Desktop
 
 ```
 curl -s https://updates.signal.org/desktop/apt/keys.asc | sudo apt-key add -
