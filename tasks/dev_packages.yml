@@ -8,3 +8,7 @@
     - software-properties-common
     - ruby
     - rvm
+- name: Install JavaScript and tools
+  apt:
+    name:
+    - nodejs
