@@ -28,13 +28,10 @@ Manual actions:
  
 # Doing
 
-
 # Backlog
 
 Todo, preferably scripted, but do it either way.
 
-
- * download and build website code
  * download and build xscale website
  * Microsoft Teams
  * language settings (nl spell checker, en spell cheker, interface english)
