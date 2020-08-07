@@ -28,8 +28,6 @@ Manual actions:
  
 # Doing
 
- * download and build xscale website
-
 # Backlog
 
 Todo, preferably scripted, but do it either way.
