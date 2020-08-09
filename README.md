@@ -20,7 +20,7 @@ Manual actions:
  * Run `make boostrap` and then `make install`
  * Add Slack workspaces.
  * Log in to spotify
- * check wired headset and mic
+ * check wired headset and mic (crappy quality)
  * Sync google account met Chrome browser
    * This will add extensions too (Drive offline, Harvest, 1password, etc)
  * zoom.us: set [autoscale to false in `~/.config/zoomus.config`](https://superuser.com/questions/1381054/how-to-enable-hidpi-support-on-zoom-us-linux-client)
@@ -28,10 +28,14 @@ Manual actions:
  
 # Doing
 
+ * speedtest-cli
+
 # Backlog
 
 Todo, preferably scripted, but do it either way.
 
+ * python + Pipenv
+ * how to organize workspaces
  * language settings (nl spell checker, en spell cheker, interface english)
  * copy dev pass database
  * copy keypairs
@@ -39,10 +43,6 @@ Todo, preferably scripted, but do it either way.
    * `sudo wget https://dl.google.com/linux/linux_signing_key.pub -O- | sudo apt-key add -   # for google chrome`
  * share visual studio code settings and extensions
  * global git config (e.g. git config --global credential.helper 'store --file ~/.), maybe copy config file
-
-apps:
-
- * python + Pipenv
  
 accounts
 
